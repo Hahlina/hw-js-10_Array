@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Homework JS-10 Array</h1>
+      <h2>Shopping list</h2>
+      <h3>Task 1</h3>
+      <div class="inpBlock">
+        <input type="text" class="addName" placeholder="Name product" />
+        <input type="text" class="addNumber" placeholder="Number product" />
+      </div>
+      <button class="addBuyToList">Add</button>
+      <button class="sortArray">Sort list</button>
+      <div class="shopingList">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Number</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="tbody"></tbody>
+        </table>
+      </div>
+      <div class="task2">
+        <h2>Check in store</h2>
+        <h3>Task 2</h3>
+        <table class="table tableCheck">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Number</th>
+              <th>Prise</th>
+              <th>Sum</th>
+            </tr>
+          </thead>
+          <tbody class="tbody2"></tbody>
+        </table>
+        <div class="results"></div>
+      </div>
+      <h2>Task 3</h2>
+      <div class="task3">
+        <div class="select-wrapper">
+          <label
+            >Font-size:
+            <select name="fontSizeStyle" id="fontSizeStyle">
+              <option value="10px">10px</option>
+              <option value="12px">12px</option>
+              <option value="14px">14px</option>
+              <option selected value="16px">16px</option>
+              <option value="18px">18px</option>
+              <option value="20px">20px</option>
+              <option value="22px">22px</option>
+              <option value="24px">24px</option>
+            </select>
+          </label>
+          <label>
+            Color:
+            <select name="colorStyle" id="colorStyle">
+              <option value="red">Red</option>
+              <option selected value="black">Black</option>
+              <option value="white">White</option>
+              <option value="green">Green</option>
+              <option value="gray">Gray</option>
+              <option value="purple">Purple</option>
+              <option value="aquamarine">Aquamarine</option>
+            </select>
+          </label>
+          <label
+            >Font-weight:
+            <select name="fontWeightStyle" id="fontWeightStyle">
+              <option selected value="normal">Normal</option>
+              <option value=" bold">Bold</option>
+              <option value="lighter">Lighter</option>
+              <option value="bolder">Bolder</option>
+            </select>
+          </label>
+          <label
+            >Text-align:
+            <select name="textAlingStyle" id="textAlingStyle">
+              <option selected value="start">Start</option>
+              <option value="end">End</option>
+              <option value="center">Center</option>
+            </select>
+          </label>
+          <label>
+            Line-height:
+            <select name="lineHeightStyle" id="lineHeightStyle">
+              <option value="normal">Normal</option>
+              <option value="1em">1 em</option>
+              <option value="2em">2em</option>
+              <option value="3em">3em</option>
+            </select>
+          </label>
+        </div>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button class="btnSubmitStyle">Summit</button>
+        <div class="text"></div>
+      </div>
+      <div class="task4">
+        <h2>Task 4</h2>
+        <select name="selectAudience" id="selectAudience">
+          <option value="">All audience</option>
+          <option value="Front-end">Front-end</option>
+          <option value="Back-end">Back-end</option>
+          <option value="Internet marketing">Internet marketing</option>
+          <option value="Design">Design</option>
+          <option value="Cyber security">Cyber security</option>
+        </select>
+        <div class="btn_sort">
+          <button class="btnSortbyNumber">Sortn by number place</button>
+          <button class="btnSortAbc">Sortn by Abc</button>
+        </div>
+        <table class="table tableAudience">
+          <thead>
+            <tr>
+              <th>Name audience</th>
+              <th>Number place</th>
+              <th>Name fuculty</th>
+            </tr>
+          </thead>
+          <tbody class="tbody4"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- { cssName: "color", cssValue: "red" },
+  { cssName: "font-weight", cssValue: "bold" },
+  { cssName: "text-align", cssValue: "center" },
+  { cssName: "line-height", cssValue: "180%" }, -->
